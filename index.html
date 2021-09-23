@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Please provide the below information.</h1>
+    <form class="showForm">
+        <label for="greeting">Greeting</label>
+        <input type="text" placeholder="Enter your greeting!" id="greeting">
+        <br>
+        <br>
+        <span>Type of event:</span>
+        <br>
+        <label for="birthday">Birthday</label>
+        <input type="radio" name="eventType" id="greeting" value="birthday">
+        <label for="wedding">Wedding</label>
+        <input type="radio" name="eventType" id="wedding" value="wedding">
+        <label for="graduation">graduation</label>
+        <input type="radio" name="eventType" id="graduation" value="graduation">
+        <br>
+        <br>
+        <label for="message">Message</label>
+        <input type="text" placeholder="Enter your message." id="message">
+        <br>
+        <br>
+        <input type="submit" value="Generate card">
+    </form>
+    <section id="card">
+        <h1 id="card-greeting"></h1>
+        <h2 id="card-event"></h2>
+        <p  id="card-message"></p>
+    </section>
+</body>
+</html>

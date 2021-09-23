@@ -1,0 +1,24 @@
+.showForm {
+    visibility: visible;
+    position: sticky;   
+    text-align: center;
+    margin-top: 70px;
+}
+
+.hideForm {
+    visibility: hidden;
+    position: fixed;
+    
+}
+
+body .hideForm{
+    background-color: rgb(128, 188, 238);
+}
+
+body{
+    background-color: rgb(230, 216, 138);
+}
+
+span{
+    font-size: larger;
+}
